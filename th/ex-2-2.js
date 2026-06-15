@@ -9,7 +9,7 @@
 
 // Start coding here
 function findNLowestNumber(arrOfNumbers,n){
-   const sortedArr = arrOfNumbers.sort((a,b)=>a-b).slice(0,n)
+   const sortedArr = arrOfNumbers.sort((a,b)=>a-b)
 //console.log(sortedArr)
 return sortedArr.slice(0,n)
 }
