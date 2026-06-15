@@ -8,7 +8,14 @@
 */
 
 // Start coding here
-
+function findIfItemExist(products,productName){
+ if (products.includes(productName)){
+    return `พบ ${productName} ในรายการสินค้า`
+    } else {
+        return `ไม่พบ ${productName} ในรายการสินค้า`
+    }
+ }
+ 
 const products = ["milk", "bread", "eggs", "butter", "cheese", "orange juice"];
 
 console.log(findIfItemExist(products, "cereal box")); // ไม่พบ cereal box ในรายการสินค้า
